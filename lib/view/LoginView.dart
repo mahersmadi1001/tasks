@@ -1,6 +1,8 @@
 import 'package:ecommerce_app/core/Widgets/Loginwith.dart';
 import 'package:ecommerce_app/core/Widgets/tfflogin.dart';
-import 'package:ecommerce_app/view/HomeView.dart';
+
+import 'package:ecommerce_app/view/home_view.dart';
+import 'package:ecommerce_app/view/nav_bar_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -70,7 +72,7 @@ class LoginView extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => Homeview()),
+                    MaterialPageRoute(builder: (context) => NavBarView()),
                   );
                 },
                 color: Colors.black,

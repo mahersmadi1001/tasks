@@ -1,5 +1,6 @@
-import 'package:ecommerce_app/view/HomeView.dart';
+
 import 'package:ecommerce_app/view/LoginView.dart';
+import 'package:ecommerce_app/view/home_view.dart';
 import 'package:ecommerce_app/view/splash_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) =>
-          MaterialApp(home: Homeview(), debugShowCheckedModeBanner: false),
+          MaterialApp(home: SplashView(), debugShowCheckedModeBanner: false),
     );
   }
 }
